@@ -6,18 +6,18 @@
         
        function check($p){ 
         switch ($p){
-	case 2: echo "yes"; break;
-	case 3: echo "yes"; break;
-	case 4: echo "yes"; break;
-	case 5: echo "yes"; break;
-	case 6: echo "yes"; break;
-	case 7: echo "yes"; break;
-	case 8: echo "yes"; break;
-	case 9: echo "yes"; break;
-	case 10: echo "yes"; break;
-	case 'J': echo "yes"; break;
-	case 'Q': echo "yes"; break;
-	case 'K': echo "yes"; break;
+	case 2:
+	case 3: 
+	case 4: 
+	case 5: 
+	case 6: 
+	case 7: 
+	case 8: 
+	case 9: 
+	case 10:
+	case 'J':
+	case 'Q':
+	case 'K':
 	case 'A': echo "yes"; break;
 	default: echo "no"; break;
             }
